@@ -52,7 +52,7 @@ function Navbar() {
 							Team
 						</Link>
 					</li>
-					<li className='nav-item'>
+					<li>
 						<Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>
 							Contact
 						</Link>
