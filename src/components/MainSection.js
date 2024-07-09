@@ -21,5 +21,4 @@ By combining synergies from the fields of data science and network virtualizatio
 
 }
 
-
 export default MainSection;
