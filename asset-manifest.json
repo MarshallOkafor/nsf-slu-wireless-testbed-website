@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nsf-slu-wireless-testbed-website/static/css/main.aa1b3978.css",
-    "main.js": "/nsf-slu-wireless-testbed-website/static/js/main.92c6f597.js",
+    "main.css": "/nsf-slu-wireless-testbed-website/static/css/main.401be582.css",
+    "main.js": "/nsf-slu-wireless-testbed-website/static/js/main.942911a5.js",
     "index.html": "/nsf-slu-wireless-testbed-website/index.html",
-    "main.aa1b3978.css.map": "/nsf-slu-wireless-testbed-website/static/css/main.aa1b3978.css.map",
-    "main.92c6f597.js.map": "/nsf-slu-wireless-testbed-website/static/js/main.92c6f597.js.map"
+    "main.401be582.css.map": "/nsf-slu-wireless-testbed-website/static/css/main.401be582.css.map",
+    "main.942911a5.js.map": "/nsf-slu-wireless-testbed-website/static/js/main.942911a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa1b3978.css",
-    "static/js/main.92c6f597.js"
+    "static/css/main.401be582.css",
+    "static/js/main.942911a5.js"
   ]
 }
