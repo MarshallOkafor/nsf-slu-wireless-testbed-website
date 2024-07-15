@@ -76,13 +76,16 @@
     display: none;
 }
 
+
+@media screen and (max-width:1012px) {
+	.navbar-logo {
+		font-size:1.5rem;
+	}
+}
+
 @media screen and (max-width: 960px) {
 	.NavbarItems {
 		position: relative;
-	}
-
-	.navbar-logo {
-		font-size: 1.5rem;
 	}
 	
 	.nav-menu {
