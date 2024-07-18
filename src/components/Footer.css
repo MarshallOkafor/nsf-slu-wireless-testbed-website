@@ -1,0 +1,46 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background: #000000;
+}
+
+.footer-container > p {
+    color: #fff;
+    font-size: 22.5px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-container > p > a {
+    color: inherit;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1175px) {
+    .footer-container > p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .footer-container > p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .footer-container > p {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .footer-container > p {
+        font-size: 14px;
+    }
+}
