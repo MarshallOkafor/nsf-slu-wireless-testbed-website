@@ -37,7 +37,7 @@
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (max-width: 1093px) {
+@media screen and (max-width: 1208px) {
     .hero-container > h1 {
         font-size: 80px;
         margin-top: -40px;
