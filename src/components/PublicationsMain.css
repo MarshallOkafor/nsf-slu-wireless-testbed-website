@@ -1,0 +1,96 @@
+:root {
+    --font-size: 31px;
+}
+
+.publications-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+
+.publications-main-container > p {
+    color: #fff;
+    font-size: var(--font-size);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    padding:3rem;
+}
+
+.publications-main-container > p.firstp {
+    background-color: #2c3e50;
+}
+
+.publications-main-container > p.secondp {
+    background-color: #405c79;
+}
+
+.publications-main-container > p.thirdp {
+    background-color: #4679b0;
+}
+
+.publications-main-container > p.fourthp {
+    background-color: #3994f6;
+}
+
+.publications-main-container > p > span {
+    color: #fff;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.publications-main-container > p > a {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.publications-main-container > p > button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-size: var(--font-size);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1093px) {
+    .publications-main-container > h1 {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 978px) {
+    .publications-main-container > h1 {
+        font-size: 60px;
+    }
+    .publications-main-container > p {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .publications-main-container > h1 {
+        font-size: 55px;
+    }
+
+    .publications-main-container > p {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .publications-main-container > h1 {
+        font-size: 47px;
+    }
+}
