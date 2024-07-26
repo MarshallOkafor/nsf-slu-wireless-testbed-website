@@ -1,4 +1,3 @@
-import '../../App.css';
 import TeamHero from '../TeamHero';
 
 function Team() {
