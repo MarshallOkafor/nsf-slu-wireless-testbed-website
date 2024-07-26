@@ -1,4 +1,3 @@
-import '../../App.css';
 import PublicationsHero from '../PublicationsHero';
 import PublicationsMain from '../PublicationsMain';
 
