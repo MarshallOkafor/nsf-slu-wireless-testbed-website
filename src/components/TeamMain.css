@@ -1,0 +1,123 @@
+ .team-main-container {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
+  .card-container {
+    width: 280px;
+    width: 25%;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 25px;
+    padding-bottom: 90px;
+    padding-left: 25px;
+    line-height: 25px;
+  }
+  
+  p.name {
+    margin-top: -70px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  .Restuccia > p.name {
+    margin-top: 15px;
+  }
+
+  .Pinto > p.name {
+    margin-top: -45px;
+  }
+
+  .Hassan > p.name {
+    margin-top: 15px;
+  }
+
+  .Pappone > p.name {
+    margin-top: 33px;
+  }
+
+  p.university {
+  }
+
+  p.role {
+    padding-bottom: 20px;
+    color: rgb(122, 122, 122);
+    font-style: italic;
+  }
+
+.image-wrapper {
+  margin-top: -10px;
+}
+
+  .Esposito > .image-wrapper {
+    clip-path: circle(35% at 50% 35%);
+    width: 285px;
+    height: 285px;
+  }
+
+  .Restuccia > .image-wrapper {
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+    height: 200px;
+  }
+  
+  .Pinto > .image-wrapper {
+    margin-top: -2.25rem;
+    clip-path: circle(35% at 50% 44%);
+    width: 285px;
+    height: 285px;
+  }
+
+  .Hassan > .image-wrapper {
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+    height: 200px;
+  }
+
+  .Pappone > .image-wrapper {
+    margin-top: -1.9rem;
+    clip-path: circle(50% at 50% 60%);
+    width: 200px;
+    height: 200px;
+  }
+
+  .image-wrapper > img {
+    max-width: 100%;
+  }
+  
+
+  @media (max-width: 768px) {
+    .card-container {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-container {
+      width: 100%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      margin-left: 0px;
+    }
+  }
+
