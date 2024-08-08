@@ -22,6 +22,8 @@
     font-size: 200px;
     margin-top: -180px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1000px) {

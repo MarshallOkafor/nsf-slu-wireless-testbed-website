@@ -64,33 +64,49 @@
     cursor: pointer;
 }
 
+Popup {
+    position: fixed;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: hidden; 
+}
+
 
 @media screen and (max-width: 1093px) {
-    .publications-main-container > h1 {
+    /* .publications-main-container > h1 {
         font-size: 80px;
-    }
+    } */
 }
 @media screen and (max-width: 978px) {
-    .publications-main-container > h1 {
+    /* .publications-main-container > h1 {
         font-size: 60px;
-    }
-    .publications-main-container > p {
-        font-size: 27px;
+    } */
+    :root {
+        --font-size: 27px;
     }
 }
 
 @media screen and (max-width: 784px) {
-    .publications-main-container > h1 {
+    /* .publications-main-container > h1 {
         font-size: 55px;
-    }
+    } */
 
-    .publications-main-container > p {
-        font-size: 23px;
+    :root {
+        --font-size: 23px;
     }
 }
 
 @media screen and (max-width: 701px) {
-    .publications-main-container > h1 {
+    /* .publications-main-container > h1 {
         font-size: 47px;
-    }
+    } */
 }

@@ -112,6 +112,7 @@
 		text-align: center;
 		padding: 2rem;
 		width: 100%;
+		/*transform: translateY(-485%);*/
 		display: table;
 	}
 
