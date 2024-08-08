@@ -1,13 +1,13 @@
 .publications-hero-container img {
     object-fit: cover;
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: fixed;
     z-index: -1;
 }
 
 .publications-hero-container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     margin-bottom:-80px;
